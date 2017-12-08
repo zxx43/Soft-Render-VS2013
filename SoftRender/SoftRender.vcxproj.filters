@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cube">
+      <UniqueIdentifier>{99302a65-0707-43e4-ab2a-c66e31b01377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\face">
+      <UniqueIdentifier>{4d6d28d3-6565-4040-9c08-6b14ad19ba8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphicLib">
+      <UniqueIdentifier>{efcbb56a-768c-41ab-a5c1-3b52019f16cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\header">
+      <UniqueIdentifier>{59c4d111-9ce9-42af-b634-130a17884ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\key">
+      <UniqueIdentifier>{ecaf9dbd-bc24-4512-a046-901c1ecb14b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maths">
+      <UniqueIdentifier>{b8a3a2da-6383-4371-b663-7a887778b1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{3cab7c73-1160-4a5c-8369-f6099dd43485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shadow">
+      <UniqueIdentifier>{f712280d-0499-459b-acf2-4ee572ae5df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sight">
+      <UniqueIdentifier>{9daedf9d-138e-4801-bb0c-0f9af5f03979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sphere">
+      <UniqueIdentifier>{e75cabff-4acc-44c7-8377-4692874d3cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\square">
+      <UniqueIdentifier>{6424850d-72ed-436e-9365-92f01d54fc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\texture">
+      <UniqueIdentifier>{04d2d8ac-6dc9-4a4e-9117-929ed28f243f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{4b381ad2-8e91-4541-ac6a-237d72738cc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cube\cube.cpp">
+      <Filter>Source Files\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="face\face.cpp">
+      <Filter>Source Files\face</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicLib\graphicLib.cpp">
+      <Filter>Source Files\graphicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicLib\sampler.cpp">
+      <Filter>Source Files\graphicLib</Filter>
+    </ClCompile>
+    <ClCompile Include="key\key.cpp">
+      <Filter>Source Files\key</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\COLOR.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\MATRIX4X4.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\PLANE.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR2D.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR3D.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR4D.cpp">
+      <Filter>Source Files\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="util\util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\BmpLoader.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="square\square.cpp">
+      <Filter>Source Files\square</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere\sphere.cpp">
+      <Filter>Source Files\sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="sight\sight.cpp">
+      <Filter>Source Files\sight</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow\shadow.cpp">
+      <Filter>Source Files\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="shader\shader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cube\cube.h">
+      <Filter>Source Files\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="face\face.h">
+      <Filter>Source Files\face</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicLib\graphicLib.h">
+      <Filter>Source Files\graphicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicLib\sampler.h">
+      <Filter>Source Files\graphicLib</Filter>
+    </ClInclude>
+    <ClInclude Include="header\constants.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\datatype.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\header.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="key\key.h">
+      <Filter>Source Files\key</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\COLOR.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Maths.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\MATRIX4X4.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\PLANE.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR2D.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR3D.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR4D.h">
+      <Filter>Source Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="texture\BmpLoader.h">
+      <Filter>Source Files\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="texture\texture.h">
+      <Filter>Source Files\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="square\square.h">
+      <Filter>Source Files\square</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere\sphere.h">
+      <Filter>Source Files\sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="sight\sight.h">
+      <Filter>Source Files\sight</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow\shadow.h">
+      <Filter>Source Files\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="shader\shader.h">
+      <Filter>Source Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objects.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
